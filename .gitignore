@@ -1,0 +1,21 @@
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.venv/
+.pytest_cache/
+
+# Ignore other project files outside car_description_pipeline
+build_notebook.py
+build_universal_notebook.py
+universal_extraction_pipeline.ipynb
+car_description_finetuning_(5).ipynb
+car_description_vllm_load_testing (2).ipynb
+car_extraction_system/
+
+# OS and logs
+*.log
+.DS_Store
+Thumbs.db
